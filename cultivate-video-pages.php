@@ -5,7 +5,7 @@
  * Description: Build video-focused pages intended to provide a great video-watching experience for readers looking for your videos
  * Author:      CultivateWP
  * Author URI:  https://cultivatewp.com/
- * Version:     1.1.9
+ * Version:     1.2.0
  * Text Domain: cultivate-video-pages
  *
  * Cultivate Video Pages is free software: you can redistribute it and/or modify
@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Plugin version.
 if ( ! defined( 'CULTIVATE_VIDEO_PAGES_VERSION' ) ) {
-	define( 'CULTIVATE_VIDEO_PAGES_VERSION', '1.1.9' );
+	define( 'CULTIVATE_VIDEO_PAGES_VERSION', '1.2.0' );
 }
 
 // Plugin Folder Path.

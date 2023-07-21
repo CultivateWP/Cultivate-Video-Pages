@@ -9,7 +9,6 @@
 **/
 
 namespace Cultivate_Video_Pages;
-use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 final class Cultivate_Video_Pages {
 
@@ -110,7 +109,7 @@ final class Cultivate_Video_Pages {
 		if( is_admin() ) {
 			require CULTIVATE_VIDEO_PAGES_PLUGIN_DIR . 'includes/updater/plugin-update-checker.php';
 
-			$myUpdateChecker = \Puc_v4_Factory::buildUpdateChecker(
+			$myUpdateChecker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
 				'https://github.com/cultivatewp/cultivate-video-pages/',
 				CULTIVATE_VIDEO_PAGES_PLUGIN_FILE, //Full path to the main plugin file or functions.php.
 				'cultivate-video-pages'
